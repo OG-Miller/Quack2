@@ -1,0 +1,69 @@
+
+textarea{
+  resize: none;
+}
+
+
+/* ------------ */
+
+
+.controls{
+ flex-direction: row;
+  display: flex;
+}
+
+.update__btn{
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.update__icon{
+  padding-right: 5px;
+  
+}
+
+.update__btn > h4{
+  font-size: 13px;
+}
+
+
+
+.update__btn:hover {
+  color: rgba(49, 155, 40, 0.938);
+  transition: 120ms color ease-in;
+  cursor: pointer;
+}
+
+
+/* ------------ */
+
+
+.delete__btn{
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.delete__icon{
+  padding-right: 5px;
+  
+}
+
+.delete__btn > h4{
+  font-size: 13px;
+}
+
+
+
+.delete__btn:hover {
+  color: rgba(180, 39, 39, 0.938);
+  transition: 120ms color ease-in;
+  cursor: pointer;
+}

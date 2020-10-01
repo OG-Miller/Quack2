@@ -1,0 +1,14 @@
+.sidebar__left{
+  color:rgb(250, 248, 244);
+  background-color: rgb(39, 37, 40);
+  min-width: 170px ;
+  max-width: 200px;
+  flex: 1.5;
+}
+
+
+hr{
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,17 @@
+.sidebarOption {
+  color: white;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  font-size: small;
+  transition: 100ms color ease-in;
+}
+
+.sidebarOption:hover {
+  color: rgba(15, 125, 199, 0.938);
+}
+
+.sidebarOption__icon{
+  display: flex;
+  padding-right: 10px;
+}

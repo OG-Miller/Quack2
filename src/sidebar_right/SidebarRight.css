@@ -1,0 +1,26 @@
+/* .sidebarRight{
+  background-color: rgb(188, 141, 212);
+  display: flex;
+  flex:2;
+  max-width: 170px;
+  float: right;
+
+  
+} */
+
+
+.sidebarRight {
+  color:rgb(250, 248, 244);
+  background-color: rgb(39, 37, 40);
+  width: 30vw;
+  padding-left: 30px;
+  padding-top: 30px;
+  
+  
+}
+
+.sidebarRight > h4 {
+ text-align: right;
+ margin-right: 50px;
+ font-size: small;
+}

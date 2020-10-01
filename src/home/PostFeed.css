@@ -1,0 +1,27 @@
+.articleLink__bg {
+  background-image: linear-gradient(rgb(38, 37, 37),rgb(75, 75, 72));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+  justify-content: flex-start;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+
+.articleHolder{
+  margin-top: 25px; 
+  padding-bottom: 50px; 
+  
+
+}
+
+.user{
+  color: rgb(237, 237, 244);
+}
+
+.noResults{
+  padding-left: 50px;
+  color: rgb(103, 102, 102);
+}

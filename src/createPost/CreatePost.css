@@ -1,0 +1,89 @@
+
+.CreatePostHolder {
+  background-image: linear-gradient(rgb(38, 37, 37),rgb(75, 75, 72));
+  color: white;
+  
+  flex: 8;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.createPostHeadline {
+  height: 10px;
+  color: rgb(245, 237, 237);
+  background-color:  rgb(39, 37, 40);
+  width: 40vw;
+  height: 5vh;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 0vw;
+  margin-top: 0px;
+  margin-top: 25px;
+  
+}
+
+.createPostBody{  
+  color: rgb(245, 237, 237);
+  background-color:  rgb(39, 37, 40);
+  /* border: solid;
+  border-width: 2px;
+  border-color: rgba(15, 125, 199, 0.938);
+  border-radius: 5px; */
+  width: 40vw;
+  height: 200px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 0vw;
+  margin-top: 15px;
+  
+}
+
+.submit-button{
+  height: 20px;
+  color: rgb(245, 237, 237);
+  background-color:  rgb(39, 37, 40);
+  font-size: small;
+  /* position: sticky; */
+  padding-bottom: px;
+  margin-left: 30px;
+  margin-right: 0vw;
+  margin-top: 15px;
+}
+
+.submit-button > Icon {
+ size: 10px;
+}
+
+
+form > hr{
+  width: 40vw;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.submit__btn{
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+
+.publish__icon{
+  padding-right: 5px;
+ 
+}
+
+.submit__btn > h4{
+  font-size: 13px;
+}
+
+.submit__btn:hover {
+  color: rgba(49, 155, 40, 0.938);
+  transition: 120ms color ease-in;
+  cursor: pointer;
+}
