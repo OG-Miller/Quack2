@@ -58,7 +58,7 @@ const  CreatePost = () => {
         onChange={(e) => setHeadline(e.target.value) }
         value={headline}
         className="createPostHeadline" 
-        placeholder="Headline-check"></textarea> 
+        placeholder="Headline"></textarea> 
         
         <textarea 
         maxLength="2000"
