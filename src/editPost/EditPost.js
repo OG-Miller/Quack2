@@ -29,9 +29,9 @@ const history = useHistory();
 
 
   const chosenId = chosenObject.id;
-  const matchedId = posts.find( post => post.id === chosenId );
-  const theIndex = posts.indexOf( matchedId );
-
+  const matchedPost = posts.find( post => post.id === chosenId ); //this matches clicked article to same article in posts
+  const indexOfArticleInPosts = posts.indexOf( matchedPost );//original article link index
+ 
 
 
   const updatePost = (e) => {
@@ -40,8 +40,14 @@ const history = useHistory();
     if(chosenObject.headline < 1 || chosenObject.body < 1)  {
       alert("Please fill in both fields ; ) ");
     } else {
-      setPosts(posts.filter(post => post.id !== chosenId));
-      setPosts (prevPosts => [ chosenObject, ...prevPosts]);
+    //  setPosts(prevPosts => [prevPosts.splice(indexOfArticleInPosts,1,chosenObject), ...prevPosts] );
+    //setPosts( posts.splice([indexOfArticleInPosts+1],1,{chosenObject}) ) // this keeps only original clicked post - not edited
+
+      setPosts(posts.filter(post => post.id !== chosenId)); // this removes the original article
+      setPosts (prevPosts => [ chosenObject, ...prevPosts]);// this sets edited article as newest entry
+      
+    // setPosts(prevPosts =>  [...prevPosts.splice(indexOfArticleInPosts,1,chosenObject),...prevPosts ]) //returns replaced + edited dupe ontop
+      //setPosts(prevPosts =>  [...prevPosts.splice(indexOfArticleInPosts,1,chosenObject)] ) // returns just edited article
       history.push('/PostFeed');
     }
       

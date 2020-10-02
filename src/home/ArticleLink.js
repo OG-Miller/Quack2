@@ -15,7 +15,9 @@ const ArticleLink = (post) => {
     const matchedId = posts.find(post => post.id == foundId);
     const theIndex = posts.indexOf(matchedId);
     const selectedArticle = posts[theIndex];
-    setChosenObject(selectedArticle , selectedArticle.index);
+    // setChosenObject([{originIndex:}])
+    setChosenObject(selectedArticle , selectedArticle.index); //< what is this?
+   
     
   } 
     
